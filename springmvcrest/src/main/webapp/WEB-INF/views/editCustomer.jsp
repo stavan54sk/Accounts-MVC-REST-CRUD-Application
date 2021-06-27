@@ -1,0 +1,146 @@
+<%-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1" --%>
+<%-- 	pageEncoding="ISO-8859-1"%> --%>
+
+<%-- <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> --%>
+<%-- <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%> --%>
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+<!-- <title>Bootstrap Example</title> -->
+<!-- <meta charset="utf-8"> -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<!-- <link rel="stylesheet" -->
+<!-- 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+<!-- <script -->
+<!-- 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- <script -->
+<!-- 	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+<!-- <script -->
+<!-- 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+<!-- </head> -->
+<!-- <body> -->
+<%-- 	<i> ${pageContext.servletContext.contextPath} </i> --%>
+
+
+
+<!-- 	<div> -->
+<!-- 		<marquee> -->
+<!-- 			<h2>Customer Spring Web MVC CRUD Application</h2> -->
+<!-- 		</marquee> -->
+<!-- 	</div> -->
+
+<!-- 	<div> -->
+
+<%-- 		<form:form modelAttribute="customer"   action="${pageContext.servletContext.contextPath}/spring/update"   method="post"> --%>
+
+<!-- 			<table> -->
+<!-- 				<tr> -->
+<%-- 					<td><form:label path="customerId">Customer Id</form:label></td> --%>
+<%-- 					<td><form:input path="customerId" /></td> --%>
+<!-- 				</tr> -->
+
+<!-- 				<tr> -->
+<%-- 					<td><form:label path="name">CUSTOMER NAME</form:label></td> --%>
+<%-- 					<td><form:input path="name" /></td> --%>
+<!-- 				</tr> -->
+
+<!-- 				<tr> -->
+<%-- 					<td><form:label path="pan">CUSTOMER PAN</form:label></td> --%>
+<%-- 					<td><form:input path="pan" /></td> --%>
+<!-- 				</tr> -->
+
+
+<!-- 				<tr> -->
+<%-- 					<td><form:label path="mobile">CUSTOMER MOBILE</form:label></td> --%>
+<%-- 					<td><form:input path="mobile" /></td> --%>
+<!-- 				</tr> -->
+
+<!-- 				<tr> -->
+<%-- 					<td><form:label path="address">CUSTOMER ADDRESS</form:label></td> --%>
+<%-- 					<td><form:input path="address" /></td> --%>
+<!-- 				</tr> -->
+
+
+<!-- 				<tr> -->
+<%-- 					<td><form:label path="dob">CUSTOMER DOB</form:label></td> --%>
+<%-- 					<td><form:input path="dob" /></td> --%>
+<!-- 				</tr> -->
+
+<!-- 				<tr> -->
+<!-- 					<td><input type="submit" class="btn btn-info" -->
+<!-- 						value="UPDATE CUSTOMER"></td> -->
+<!-- 					<td> -->
+					
+<!-- 					<input -->
+<!-- 				type="reset" class="btn btn-primary" value="RESET"> -->
+					
+<!-- 					</td> -->
+
+<!-- 				</tr> -->
+
+
+<!-- 			</table> -->
+
+
+
+
+<%-- 		</form:form> --%>
+
+
+
+<!-- 	</div> -->
+
+<!-- 	<div class="container"> -->
+
+<!-- 		<div align="right"> -->
+<%-- 			<a href="${pageContext.servletContext.contextPath}/spring/new"><input --%>
+<!-- 				type="button" class="btn btn-primary" value="CREATE CUSTOMER"> -->
+<!-- 			</a> -->
+
+<!-- 		</div> -->
+
+<!-- 		<table> -->
+<!-- 			<thead> -->
+<!-- 				<tr> -->
+<!-- 					<th>CUSTOMER ID</th> -->
+<!-- 					<th>CUSTOMER NAME</th> -->
+<!-- 					<th>CUSTOMER PAN</th> -->
+<!-- 					<th>CUSTOMER MOBILE</th> -->
+<!-- 					<th>CUSTOMER ADDRESS</th> -->
+<!-- 					<th>CUSTOMER DOB</th> -->
+<!-- 					<th>EDIT CUSTOMER</th> -->
+<!-- 					<th>DELETE CUSTOMER</th> -->
+<!-- 				</tr> -->
+<!-- 			</thead> -->
+<!-- 			<tbody> -->
+
+<%-- 				<c:forEach items="${customers}" var="c"> --%>
+<!-- 					<tr> -->
+<%-- 						<td>${c.customerId}</td> --%>
+<%-- 						<td>${c.name}</td> --%>
+<%-- 						<td>${c.pan}</td> --%>
+<%-- 						<td>${c.mobile}</td> --%>
+<%-- 						<td>${c.address}</td> --%>
+<%-- 						<td>${c.dob}</td> --%>
+<!-- 						<td><a -->
+<%-- 							href="${pageContext.servletContext.contextPath}/spring/edit/${c.customerId}"> --%>
+<!-- 								<input type="button" class="btn btn-info" value="EDIT CUSTOMER"> -->
+<!-- 						</a></td> -->
+<!-- 						<td><a -->
+<%-- 							href="${pageContext.servletContext.contextPath}/spring/delete?customerId=${c.customerId}"> --%>
+<!-- 								<input type="button" class="btn btn-danger" -->
+<!-- 								value="DELETE CUSTOMER"> -->
+<!-- 						</a></td> -->
+<!-- 					</tr> -->
+<%-- 				</c:forEach> --%>
+<!-- 			</tbody> -->
+<!-- 		</table> -->
+
+
+
+
+
+
+<!-- 	</div> -->
+<!-- </body> -->
+<!-- </html> -->
